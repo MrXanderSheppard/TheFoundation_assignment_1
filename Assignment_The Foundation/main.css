@@ -1,0 +1,59 @@
+body {
+    background-color:rgb(233, 233, 233);
+    color:rgba(15, 93, 227, 0.805);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.navbar{
+    height: 200%;
+    width: 200%;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+    font-family: 'Noto Sans JP';
+}
+
+.navbar a{
+    color: rgba(15, 93, 227, 0.805);
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: aqua;
+}
+
+
+h1{
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+}
+
+img{
+        max-width:50%;
+        height: auto;
+        margin-right: 200px;
+      } 
+
+
+.uat-catalogs{
+    text-align: center;
+    font-family: 'Noto Sans JP';
+}
+
+.uat-catalogs  a{
+    color: rgba(15, 93, 227, 0.805);
+    text-decoration: none;
+}
+
+.uat-catalogs a:hover{
+    color: aqua;
+}
+
+ footer{
+    text-align: center;
+    margin-right: 200px;
+ }
